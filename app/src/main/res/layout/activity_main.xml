@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="scorecard.project.com.booklistingapp.MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pexelbooks"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/appTitle"
+        android:textColor="@color/appTitle"
+        android:layout_centerInParent="true"
+        android:textSize="48sp"
+        android:id="@+id/appTitle"
+        android:fontFamily="sans-serif-smallcaps"
+        android:alpha="0"
+        />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/owl"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/appTitle"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageMain"
+        android:layout_marginBottom="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Skip"
+        android:textSize="20sp"
+        android:id="@+id/skip"
+        android:textColor="@color/darkBlue"
+        android:layout_below="@+id/appTitle"
+        android:layout_centerHorizontal="true"
+        android:alpha="0"
+/>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Library</string>
+    <string name="appTitle">My Library !</string>
+    <string name="Skip">Skip</string>
+    <string name="noResultfound">No Result Found</string>
+    <string name="findYourBook">Find Your Book</string>
+    <string name="search">Search</string>
+    <string name="connectivityError">Check Internet Connectivity</string>
+
+</resources>
